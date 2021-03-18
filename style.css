@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main-brand {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(160, 148, 148, 0.671);
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.main-title {
+  font-size: 30px;
+}
+
+.main-links {
+  display: flex;
+  padding-top: 20px;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.lista-cursos {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 10px;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.cursos {
+  background: tomato;
+  padding: 5px;
+  width: 200px;
+  height: 210px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.cursos-titulo {
+  font-size: 22px;
+  color: burlywood;
+}
+
+.curso-imagen {
+  max-width: 30%;
+  margin: 0px;
+  padding-bottom: 10px;
+}
+
+.agregar-carrito {
+  display: flex;
+  align-items: center;
+  margin-left: 20%;
+}
+
+.final-carrito {
+  display: flex;
+  background-color: black;
+}
+
+.final-lista {
+  color: white;
+}
